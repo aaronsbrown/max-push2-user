@@ -2,7 +2,7 @@
 	"name" : "Mutes",
 	"version" : 1,
 	"creationdate" : 3633089950,
-	"modificationdate" : 3633182740,
+	"modificationdate" : 3633258256,
 	"viewrect" : [ 10.0, 86.0, 471.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -45,6 +45,11 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"init-elektron-comms.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -57,12 +62,12 @@
 		}
 ,
 		"data" : 		{
-			"source_padMap.txt" : 			{
+			"source_colorMap.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
 ,
-			"source_colorMap.txt" : 			{
+			"source_padMap.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
