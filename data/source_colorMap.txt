@@ -1,0 +1,7 @@
+digitone, 103;
+four, 113;
+octatrackAudio, 5;
+octatrackMidi, 3;
+digitakt, 111;
+rytm, 15;
+unused, 0;

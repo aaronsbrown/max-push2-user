@@ -1,0 +1,13 @@
+digitone, 94;
+four, 94;
+digitakt, 94;
+rytm, 94;
+octatrackAudio, 49;
+octatrackMidi_1, 112;
+octatrackMidi_1, 113;
+octatrackMidi_1, 114;
+octatrackMidi_1, 115;
+octatrackMidi_1, 116;
+octatrackMidi_1, 117;
+octatrackMidi_1, 118;
+octatrackMidi_1, 119;
