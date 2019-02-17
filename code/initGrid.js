@@ -2,7 +2,7 @@ function bang() {
 		
 		
 	// set all UI buttons to on	
-	[["live.toggle", 1], ["live.text", 1], ["main-live.toggle", 0]].forEach(function(args) {
+	[["live.toggle", 0], ["live.text", 1], ["main-live.toggle", 0]].forEach(function(args) {
 	
 		var rootName = args[0];
 		var setValue = args[1];
