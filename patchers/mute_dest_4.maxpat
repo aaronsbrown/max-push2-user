@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1133.0, 319.0, 1013.0, 741.0 ],
+		"rect" : [ 213.0, 157.0, 1013.0, 741.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,82 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 173.0, 581.0, 78.0, 22.0 ],
+					"restore" : [ 1.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr midi4_4",
+					"varname" : "midi4_4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 173.0, 546.0, 78.0, 22.0 ],
+					"restore" : [ 1.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr midi3_4",
+					"varname" : "midi3_4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 175.0, 505.0, 78.0, 22.0 ],
+					"restore" : [ 1.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr midi2_4",
+					"varname" : "midi2_4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 173.0, 458.0, 78.0, 22.0 ],
+					"restore" : [ 1.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr midi1_4",
+					"varname" : "midi1_4"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "newobj",
@@ -120,7 +196,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -270,7 +346,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -303,7 +379,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-61",
@@ -496,13 +571,13 @@
 					"presentation_rect" : [ 152.0, 133.5, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 16.0,
+							"parameter_initial" : [ 1 ],
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
-							"parameter_longname" : "live.numbox[121]",
-							"parameter_mmax" : 16.0,
-							"parameter_initial" : [ 1 ]
+							"parameter_longname" : "live.numbox[121]"
 						}
 
 					}
@@ -528,13 +603,13 @@
 					"presentation_rect" : [ 103.0, 133.5, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 16.0,
+							"parameter_initial" : [ 1 ],
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
-							"parameter_longname" : "live.numbox[126]",
-							"parameter_mmax" : 16.0,
-							"parameter_initial" : [ 1 ]
+							"parameter_longname" : "live.numbox[126]"
 						}
 
 					}
@@ -560,13 +635,13 @@
 					"presentation_rect" : [ 54.0, 133.5, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 16.0,
+							"parameter_initial" : [ 1 ],
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
-							"parameter_longname" : "live.numbox[127]",
-							"parameter_mmax" : 16.0,
-							"parameter_initial" : [ 1 ]
+							"parameter_longname" : "live.numbox[127]"
 						}
 
 					}
@@ -592,14 +667,14 @@
 					"presentation_rect" : [ 5.0, 133.5, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 16.0,
+							"parameter_initial" : [ 1 ],
 							"parameter_shortname" : "live.numbox",
 							"parameter_defer" : 1,
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 1.0,
-							"parameter_longname" : "live.numbox[145]",
-							"parameter_mmax" : 16.0,
-							"parameter_initial" : [ 1 ]
+							"parameter_longname" : "live.numbox[63]"
 						}
 
 					}
@@ -834,7 +909,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-					"activebgoncolor" : [ 0.996, 0.451, 0.549, 1.0 ],
+					"activebgoncolor" : [ 0.447, 0.612, 0.992, 1.0 ],
 					"automation" : "0",
 					"automationon" : "1",
 					"id" : "obj-33",
@@ -848,11 +923,11 @@
 					"presentation_rect" : [ 152.0, 88.5, 44.0, 43.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.text",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "live.text[51]",
-							"parameter_mmax" : 1.0
+							"parameter_longname" : "live.text[51]"
 						}
 
 					}
@@ -865,7 +940,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.996, 0.451, 0.549, 1.0 ],
+					"activebgoncolor" : [ 0.447, 0.612, 0.992, 1.0 ],
 					"automation" : "0",
 					"automationon" : "1",
 					"id" : "obj-31",
@@ -879,11 +954,11 @@
 					"presentation_rect" : [ 103.0, 88.5, 44.0, 43.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.text",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "live.text[126]",
-							"parameter_mmax" : 1.0
+							"parameter_longname" : "live.text[126]"
 						}
 
 					}
@@ -896,7 +971,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.996, 0.451, 0.549, 1.0 ],
+					"activebgoncolor" : [ 0.447, 0.612, 0.992, 1.0 ],
 					"automation" : "0",
 					"automationon" : "1",
 					"id" : "obj-28",
@@ -910,11 +985,11 @@
 					"presentation_rect" : [ 54.0, 88.5, 44.0, 43.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.text",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "live.text[17]",
-							"parameter_mmax" : 1.0
+							"parameter_longname" : "live.text[17]"
 						}
 
 					}
@@ -927,7 +1002,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.996, 0.451, 0.549, 1.0 ],
+					"activebgoncolor" : [ 0.447, 0.612, 0.992, 1.0 ],
 					"automation" : "0",
 					"automationon" : "1",
 					"id" : "obj-23",
@@ -941,11 +1016,11 @@
 					"presentation_rect" : [ 5.0, 88.5, 44.0, 43.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.text",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_type" : 2,
-							"parameter_longname" : "live.text[52]",
-							"parameter_mmax" : 1.0
+							"parameter_longname" : "live.text[52]"
 						}
 
 					}
@@ -967,7 +1042,7 @@
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
 					"id" : "obj-20",
-					"items" : [ "AU DLS Synth 1", ",", "Ableton Push 2 Live Port", ",", "Ableton Push 2 User Port", ",", "Clarett 4Pre MIDI", ",", "mio10 DIN 1", ",", "mio10 DIN 2", ",", "mio10 DIN 3", ",", "mio10 DIN 4", ",", "mio10 DIN 5", ",", "mio10 DIN 6", ",", "mio10 DIN 7", ",", "mio10 DIN 8", ",", "mio10 DIN 9", ",", "mio10 DIN 10", ",", "mio10 HST 1", ",", "mio10 HST 2", ",", "mio10 HST 3", ",", "mio10 HST 4-10", ",", "mio10 ETH 1-4", ",", "mio10 USB 2", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "My Port 1", ",", "mio 10 HST 4-10", ",", "mio 10 ETH 1-4" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1138,8 +1213,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-10", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-103", 0 ],
 					"source" : [ "obj-106", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"source" : [ "obj-11", 1 ]
 				}
 
 			}
@@ -1247,6 +1336,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-35", 2 ],
 					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-4", 1 ]
 				}
 
 			}
@@ -1467,6 +1563,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-9", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-96", 0 ]
 				}
@@ -1579,13 +1682,13 @@
  ],
 		"parameters" : 		{
 			"obj-26" : [ "live.numbox[126]", "live.numbox", 0 ],
+			"obj-17" : [ "live.numbox[63]", "live.numbox", 0 ],
+			"obj-23" : [ "live.text[52]", "live.text", 0 ],
+			"obj-24" : [ "live.numbox[127]", "live.numbox", 0 ],
+			"obj-33" : [ "live.text[51]", "live.text", 0 ],
 			"obj-28" : [ "live.text[17]", "live.text", 0 ],
-			"obj-17" : [ "live.numbox[145]", "live.numbox", 0 ],
 			"obj-34" : [ "live.numbox[121]", "live.numbox", 0 ],
 			"obj-31" : [ "live.text[126]", "live.text", 0 ],
-			"obj-24" : [ "live.numbox[127]", "live.numbox", 0 ],
-			"obj-23" : [ "live.text[52]", "live.text", 0 ],
-			"obj-33" : [ "live.text[51]", "live.text", 0 ],
 			"parameterbanks" : 			{
 
 			}

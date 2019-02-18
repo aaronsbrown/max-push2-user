@@ -2,7 +2,7 @@
 	"name" : "Mutes",
 	"version" : 1,
 	"creationdate" : 3633089950,
-	"modificationdate" : 3633262530,
+	"modificationdate" : 3633265019,
 	"viewrect" : [ 10.0, 86.0, 471.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -16,7 +16,7 @@
 				"toplevel" : 1
 			}
 ,
-			"init-elektron-comms.maxpat" : 			{
+			"mute_dest_4.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -32,11 +32,6 @@
 			}
 ,
 			"mutes-mapping.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"mute_dest_4.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -74,6 +69,11 @@
 ,
 			"source_ccMap.txt" : 			{
 				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"midi-channels.json" : 			{
+				"kind" : "json",
 				"local" : 1
 			}
 
