@@ -2,7 +2,7 @@
 	"name" : "Mutes",
 	"version" : 1,
 	"creationdate" : 3633089950,
-	"modificationdate" : 3633265019,
+	"modificationdate" : 3633356290,
 	"viewrect" : [ 10.0, 86.0, 471.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -67,13 +67,13 @@
 				"local" : 1
 			}
 ,
-			"source_ccMap.txt" : 			{
-				"kind" : "textfile",
+			"midi-channels.json" : 			{
+				"kind" : "json",
 				"local" : 1
 			}
 ,
-			"midi-channels.json" : 			{
-				"kind" : "json",
+			"source_ccMap.txt" : 			{
+				"kind" : "textfile",
 				"local" : 1
 			}
 

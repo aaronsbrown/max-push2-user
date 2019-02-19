@@ -1,0 +1,59 @@
+{
+	"pattrstorage" : 	{
+		"name" : "midi-channels",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"digitone::midi1_4" : [ 13.0 ],
+					"digitone::midi2_4" : [ 14.0 ],
+					"digitone::midi3_4" : [ 15.0 ],
+					"digitone::midi4_4" : [ 16.0 ],
+					"four::midi1_4" : [ 9.0 ],
+					"four::midi2_4" : [ 10.0 ],
+					"four::midi3_4" : [ 11.0 ],
+					"four::midi4_4" : [ 12.0 ],
+					"octatrackAudio::midi1_8" : [ 9.0 ],
+					"octatrackAudio::midi2_8" : [ 10.0 ],
+					"octatrackAudio::midi3_8" : [ 11.0 ],
+					"octatrackAudio::midi4_8" : [ 12.0 ],
+					"octatrackAudio::midi5_8" : [ 13.0 ],
+					"octatrackAudio::midi6_8" : [ 14.0 ],
+					"octatrackAudio::midi7_8" : [ 15.0 ],
+					"octatrackAudio::midi8_8" : [ 16.0 ],
+					"octatrackMidi::midi1_8" : [ 9.0 ],
+					"octatrackMidi::midi2_8" : [ 9.0 ],
+					"octatrackMidi::midi3_8" : [ 9.0 ],
+					"octatrackMidi::midi4_8" : [ 9.0 ],
+					"octatrackMidi::midi5_8" : [ 9.0 ],
+					"octatrackMidi::midi6_8" : [ 9.0 ],
+					"octatrackMidi::midi7_8" : [ 9.0 ],
+					"octatrackMidi::midi8_8" : [ 9.0 ],
+					"digitakt::midi1_8" : [ 1.0 ],
+					"digitakt::midi2_8" : [ 2.0 ],
+					"digitakt::midi3_8" : [ 3.0 ],
+					"digitakt::midi4_8" : [ 4.0 ],
+					"digitakt::midi5_8" : [ 5.0 ],
+					"digitakt::midi6_8" : [ 6.0 ],
+					"digitakt::midi7_8" : [ 7.0 ],
+					"digitakt::midi8_8" : [ 8.0 ],
+					"rytm::midi1_12" : [ 1.0 ],
+					"rytm::midi2_12" : [ 2.0 ],
+					"rytm::midi3_12" : [ 3.0 ],
+					"rytm::midi4_12" : [ 4.0 ],
+					"rytm::midi5_12" : [ 5.0 ],
+					"rytm::midi6_12" : [ 6.0 ],
+					"rytm::midi7_12" : [ 7.0 ],
+					"rytm::midi8_12" : [ 8.0 ],
+					"rytm::midi9_12" : [ 9.0 ],
+					"rytm::midi10_12" : [ 10.0 ],
+					"rytm::midi11_12" : [ 11.0 ],
+					"rytm::midi12_12" : [ 12.0 ]
+				}
+
+			}
+		}
+
+	}
+
+}

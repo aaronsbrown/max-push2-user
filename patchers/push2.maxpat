@@ -2294,7 +2294,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 445.0, 457.0, 54.0, 22.0 ],
+					"patching_rect" : [ 445.0, 482.0, 54.0, 22.0 ],
 					"text" : "s muteQ"
 				}
 
@@ -2499,7 +2499,7 @@
 					"order" : 1,
 					"source" : [ "obj-2", 0 ],
 					"watchpoint_flags" : 1,
-					"watchpoint_id" : 3
+					"watchpoint_id" : 4
 				}
 
 			}
