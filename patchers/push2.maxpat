@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 158.0, 468.0, 1277.0, 852.0 ],
+		"rect" : [ 246.0, 107.0, 927.0, 852.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -130,7 +130,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -397,7 +397,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -442,7 +442,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 0,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -861,7 +861,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 0,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2048,7 +2048,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 445.0, 265.5, 134.0, 22.0 ],
+					"patching_rect" : [ 481.0, 237.5, 134.0, 22.0 ],
 					"text" : "mutes-mapping.maxpat"
 				}
 
@@ -2076,7 +2076,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2499,7 +2499,7 @@
 					"order" : 1,
 					"source" : [ "obj-2", 0 ],
 					"watchpoint_flags" : 1,
-					"watchpoint_id" : 4
+					"watchpoint_id" : 3
 				}
 
 			}
@@ -2523,7 +2523,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"midpoints" : [ 225.75, 138.0, 430.0, 138.0, 430.0, 12.0, 454.5, 12.0 ],
-					"order" : 4,
+					"order" : 3,
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -2532,15 +2532,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-20", 1 ],
 					"midpoints" : [ 225.75, 219.0, 355.75, 219.0 ],
-					"order" : 2,
-					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
-					"midpoints" : [ 225.75, 258.0, 454.5, 258.0 ],
 					"order" : 1,
 					"source" : [ "obj-26", 0 ]
 				}
@@ -2550,7 +2541,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
 					"midpoints" : [ 225.75, 255.0, 317.75, 255.0 ],
-					"order" : 3,
+					"order" : 2,
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -2598,7 +2589,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 2 ],
-					"midpoints" : [ 454.5, 300.0, 490.5, 300.0 ],
+					"midpoints" : [ 490.5, 300.0, 490.5, 300.0 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -2666,7 +2657,115 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-2::obj-25" : [ "live.toggle[74]", "live.toggle", 0 ],
+			"obj-2::obj-32" : [ "live.toggle[103]", "live.toggle", 0 ],
+			"obj-2::obj-46" : [ "live.toggle[69]", "live.toggle", 0 ],
+			"obj-2::obj-33" : [ "live.toggle[71]", "live.toggle", 0 ],
+			"obj-2::obj-47" : [ "live.toggle[88]", "live.toggle", 0 ],
+			"obj-2::obj-34" : [ "live.toggle[128]", "live.toggle", 0 ],
+			"obj-2::obj-48" : [ "live.toggle[115]", "live.toggle", 0 ],
+			"obj-2::obj-35" : [ "live.toggle[134]", "live.toggle", 0 ],
+			"obj-2::obj-49" : [ "live.toggle[91]", "live.toggle", 0 ],
+			"obj-2::obj-36" : [ "live.toggle[72]", "live.toggle", 0 ],
+			"obj-2::obj-50" : [ "live.toggle[116]", "live.toggle", 0 ],
+			"obj-2::obj-37" : [ "live.toggle[81]", "live.toggle", 0 ],
+			"obj-2::obj-51" : [ "live.toggle[105]", "live.toggle", 0 ],
+			"obj-2::obj-20" : [ "live.toggle[76]", "live.toggle", 0 ],
+			"obj-2::obj-52" : [ "live.toggle[75]", "live.toggle", 0 ],
+			"obj-2::obj-21" : [ "live.toggle[107]", "live.toggle", 0 ],
+			"obj-2::obj-53" : [ "live.toggle[92]", "live.toggle", 0 ],
+			"obj-2::obj-22" : [ "live.toggle[118]", "live.toggle", 0 ],
+			"obj-2::obj-54" : [ "live.toggle[133]", "live.toggle", 0 ],
+			"obj-2::obj-23" : [ "live.toggle[82]", "live.toggle", 0 ],
+			"obj-2::obj-55" : [ "live.toggle[64]", "live.toggle", 0 ],
+			"obj-2::obj-24" : [ "live.toggle[83]", "live.toggle", 0 ],
+			"obj-2::obj-56" : [ "live.toggle[95]", "live.toggle", 0 ],
+			"obj-2::obj-26" : [ "live.toggle[100]", "live.toggle", 0 ],
+			"obj-2::obj-2" : [ "live.toggle[104]", "live.toggle", 0 ],
+			"obj-2::obj-57" : [ "live.toggle[117]", "live.toggle", 0 ],
+			"obj-2::obj-27" : [ "live.toggle[135]", "live.toggle", 0 ],
+			"obj-2::obj-58" : [ "live.toggle[96]", "live.toggle", 0 ],
+			"obj-2::obj-29" : [ "live.toggle[77]", "live.toggle", 0 ],
+			"obj-2::obj-59" : [ "live.toggle[130]", "live.toggle", 0 ],
+			"obj-2::obj-12" : [ "live.toggle[93]", "live.toggle", 0 ],
+			"obj-2::obj-60" : [ "live.toggle[70]", "live.toggle", 0 ],
+			"obj-2::obj-13" : [ "live.toggle[131]", "live.toggle", 0 ],
+			"obj-2::obj-61" : [ "live.toggle[89]", "live.toggle", 0 ],
+			"obj-2::obj-14" : [ "live.toggle[73]", "live.toggle", 0 ],
+			"obj-2::obj-62" : [ "live.toggle[127]", "live.toggle", 0 ],
+			"obj-2::obj-15" : [ "live.toggle[90]", "live.toggle", 0 ],
+			"obj-2::obj-63" : [ "live.toggle[65]", "live.toggle", 0 ],
+			"obj-2::obj-16" : [ "live.toggle[129]", "live.toggle", 0 ],
+			"obj-2::obj-64" : [ "live.toggle[85]", "live.toggle", 0 ],
+			"obj-2::obj-17" : [ "live.toggle[68]", "live.toggle", 0 ],
+			"obj-2::obj-65" : [ "live.toggle[112]", "live.toggle", 0 ],
+			"obj-2::obj-18" : [ "live.toggle[86]", "live.toggle", 0 ],
+			"obj-2::obj-66" : [ "live.toggle[109]", "live.toggle", 0 ],
+			"obj-2::obj-19" : [ "live.toggle[113]", "live.toggle", 0 ],
+			"obj-2::obj-67" : [ "live.toggle[80]", "live.toggle", 0 ],
+			"obj-2::obj-11" : [ "live.toggle[110]", "live.toggle", 0 ],
+			"obj-2::obj-68" : [ "live.toggle[97]", "live.toggle", 0 ],
+			"obj-2::obj-10" : [ "live.toggle[84]", "live.toggle", 0 ],
+			"obj-2::obj-69" : [ "live.toggle[106]", "live.toggle", 0 ],
+			"obj-2::obj-9" : [ "live.toggle[101]", "live.toggle", 0 ],
+			"obj-2::obj-38" : [ "live.toggle[132]", "live.toggle", 0 ],
+			"obj-2::obj-39" : [ "live.toggle[102]", "live.toggle", 0 ],
+			"obj-2::obj-8" : [ "live.toggle[108]", "live.toggle", 0 ],
+			"obj-2::obj-70" : [ "live.toggle[66]", "live.toggle", 0 ],
+			"obj-2::obj-40" : [ "live.toggle[136]", "live.toggle", 0 ],
+			"obj-2::obj-5" : [ "live.toggle[78]", "live.toggle", 0 ],
+			"obj-2::obj-71" : [ "live.toggle[98]", "live.toggle", 0 ],
+			"obj-2::obj-4" : [ "live.toggle[94]", "live.toggle", 0 ],
+			"obj-2::obj-42" : [ "live.toggle[79]", "live.toggle", 0 ],
+			"obj-2::obj-30" : [ "live.toggle[67]", "live.toggle", 0 ],
+			"obj-2::obj-44" : [ "live.toggle[87]", "live.toggle", 0 ],
+			"obj-2::obj-31" : [ "live.toggle[99]", "live.toggle", 0 ],
+			"obj-2::obj-45" : [ "live.toggle[114]", "live.toggle", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "push2-grid-view.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/Mutes/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "initGrid.js",
+				"bootpath" : "~/Documents/Max 8/Projects/Mutes/code",
+				"patcherrelativepath" : "../code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mutes-mapping.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/Mutes/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "source_colorMap.txt",
+				"bootpath" : "~/Documents/Max 8/Projects/Mutes/data",
+				"patcherrelativepath" : "../data",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "source_padMap.txt",
+				"bootpath" : "~/Documents/Max 8/Projects/Mutes/data",
+				"patcherrelativepath" : "../data",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
